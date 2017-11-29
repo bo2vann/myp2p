@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_content_bg"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/product_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:paddingLeft="9dp"
+        android:paddingRight="9dp">
+
+        <RadioButton
+            android:id="@+id/project_detail_radio"
+            style="@style/CommonTab"
+            android:checked="true"
+            android:text="@string/project_detail" />
+
+        <RadioButton
+            android:id="@+id/project_description_radio"
+            style="@style/CommonTab"
+            android:text="@string/project_description" />
+
+        <RadioButton
+            android:id="@+id/transaction_record_radio"
+            style="@style/CommonTab"
+            android:text="@string/transaction_record" />
+
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#C7C7CD" />
+
+    <RelativeLayout
+        android:id="@+id/fragment_product_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

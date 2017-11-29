@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_content_bg"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="42dp"
+        android:src="@mipmap/logo" />
+
+    <LinearLayout
+        style="@style/InputPanel1"
+        android:layout_marginTop="56dp">
+
+        <EditText
+            android:id="@+id/phone_num_edit"
+            style="@style/InputTheme1"
+            android:hint="@string/phone_num_hint"
+            android:inputType="phone"
+            android:textSize="14sp" />
+
+        <View style="@style/Divide" />
+
+        <EditText
+            android:id="@+id/password_edit"
+            style="@style/InputTheme1"
+            android:hint="@string/logon_password_hint"
+            android:inputType="textPassword"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/logon_button"
+        style="@style/BtnTheme1"
+        android:layout_marginTop="16dp"
+        android:text="@string/logon_btn_text" />
+
+    <Button
+        android:id="@+id/find_password_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="12dp"
+        android:background="@android:color/transparent"
+        android:text="@string/forget_password"
+        android:textColor="@color/forget_password_text"
+        android:textSize="15sp" />
+
+</LinearLayout>

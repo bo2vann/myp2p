@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <!--<TextView-->
+    <!--android:id="@+id/risk_tips"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:gravity="center"-->
+    <!--android:text="@string/important_instructions_and_risk_tips" />-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:stretchColumns="1">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/BaseInfoFirst"
+                    android:background="@drawable/invest_base_info_first_top"
+                    android:text="@string/project_name" />
+
+                <TextView
+                    android:id="@+id/project_name_text"
+                    style="@style/BaseInfoSecond"
+                    android:background="@drawable/invest_base_info_second_top" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/BaseInfoFirst"
+                    android:text="@string/project_invest_term" />
+
+                <TextView
+                    android:id="@+id/project_invest_term_text"
+                    style="@style/BaseInfoSecond" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/BaseInfoFirst"
+                    android:text="@string/currency" />
+
+                <TextView
+                    android:id="@+id/currency_text"
+                    style="@style/BaseInfoSecond" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/BaseInfoFirst"
+                    android:text="@string/product_type" />
+
+                <TextView
+                    android:id="@+id/product_type_text"
+                    style="@style/BaseInfoSecond" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/BaseInfoFirst"
+                    android:text="@string/expected_annualized_return" />
+
+                <TextView
+                    android:id="@+id/expected_annualized_return_text"
+                    style="@style/BaseInfoSecond" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/BaseInfoFirst"
+                    android:text="@string/financing_total_lend_amount" />
+
+                <TextView
+                    android:id="@+id/financing_total_lend_amount_text"
+                    style="@style/BaseInfoSecond" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/BaseInfoFirst"
+                    android:text="@string/fundraise_time" />
+
+                <TextView
+                    android:id="@+id/fundraise_time_text"
+                    style="@style/BaseInfoSecond" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/BaseInfoFirst"
+                    android:text="@string/interest_date" />
+
+                <TextView
+                    android:id="@+id/interest_date_text"
+                    style="@style/BaseInfoSecond" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/BaseInfoFirst"
+                    android:text="@string/due_date" />
+
+                <TextView
+                    android:id="@+id/due_date_text"
+                    style="@style/BaseInfoSecond" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/BaseInfoFirst"
+                    android:text="@string/min_invest_unit" />
+
+                <TextView
+                    android:id="@+id/min_invest_unit_text"
+                    style="@style/BaseInfoSecond" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/BaseInfoFirst"
+                    android:text="@string/holiday" />
+
+                <TextView
+                    android:id="@+id/holiday_text"
+                    style="@style/BaseInfoSecond" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/BaseInfoFirst"
+                    android:text="@string/tax" />
+
+                <TextView
+                    android:id="@+id/tax_text"
+                    style="@style/BaseInfoSecond" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/BaseInfoFirst"
+                    android:text="@string/profit_calc_mode" />
+
+                <TextView
+                    android:id="@+id/profit_calc_mode_text"
+                    style="@style/BaseInfoSecond" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/BaseInfoFirst"
+                    android:text="@string/witness_org" />
+
+                <TextView
+                    android:id="@+id/witness_org_text"
+                    style="@style/BaseInfoSecond" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/BaseInfoFirst"
+                    android:text="@string/pay_clearing_org" />
+
+                <TextView
+                    android:id="@+id/pay_clearing_org_text"
+                    style="@style/BaseInfoSecond" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </ScrollView>
+
+</LinearLayout>

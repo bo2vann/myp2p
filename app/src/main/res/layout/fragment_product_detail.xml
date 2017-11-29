@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/project_purpose" />
+
+
+    <TextView
+        android:id="@+id/product_introduce_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginTop="18dp"
+        android:lineSpacingMultiplier="1.5"
+        android:text="&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;融资人为制造企业，行业类型为民营企业，企业规模小型，经营范围童车组装、童装产品、童装加工销售、汽车用品、汽车座椅、儿童用品、儿童安全座椅及布套、安全帽、摩托车配件生产、销售、日用百货、办公用品、服装、鞋帽、农副产品（不含小麦）加工、销售、自营和代理各类的进出口业务。本次所融资金将用于购置儿童安全座椅生产原材料。项目用途信息从后台读取。" />
+
+
+    <View
+        style="@style/Divide"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/witness_info" />
+
+    <GridView
+        android:id="@+id/witness_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:numColumns="2" />
+
+</LinearLayout>

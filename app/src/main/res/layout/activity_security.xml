@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_content_bg"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dark_content_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/MenuListPanel"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:id="@+id/pay_password_layout"
+                style="@style/MenuListItem">
+
+                <TextView
+                    style="@style/MenuListItemText1"
+                    android:text="@string/pay_password"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/pay_status_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:src="@mipmap/status_unset" />
+
+                <TextView
+                    android:id="@+id/pay_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/unset"
+                    android:textColor="@color/status_unset"
+                    android:textSize="14sp" />
+
+                <ImageView style="@style/MenuListItemArrow" />
+
+            </LinearLayout>
+
+            <View
+                style="@style/Divide"
+                android:layout_marginLeft="20dp" />
+
+            <LinearLayout
+                android:id="@+id/gesture_password_layout"
+                style="@style/MenuListItem">
+
+                <TextView
+                    style="@style/MenuListItemText1"
+                    android:text="@string/gesture_password"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/gesture_status_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:src="@mipmap/status_unset" />
+
+                <TextView
+                    android:id="@+id/gesture_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/unset"
+                    android:textColor="@color/status_unset"
+                    android:textSize="14sp" />
+
+                <ImageView style="@style/MenuListItemArrow" />
+
+            </LinearLayout>
+
+            <View
+                style="@style/Divide"
+                android:layout_marginLeft="20dp" />
+
+            <LinearLayout
+                android:id="@+id/logon_password_layout"
+                style="@style/MenuListItem">
+
+                <TextView
+                    style="@style/MenuListItemText1"
+                    android:text="@string/logon_password"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/modify_logon_password"
+                    android:textColor="#a4aab3"
+                    android:textSize="14sp" />
+
+                <ImageView style="@style/MenuListItemArrow" />
+
+            </LinearLayout>
+
+            <View
+                style="@style/Divide"
+                android:layout_marginLeft="20dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

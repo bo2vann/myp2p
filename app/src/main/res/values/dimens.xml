@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="actionbar_title">18sp</dimen>
+    <dimen name="actionbar_right">16sp</dimen>
+    <dimen name="actionbar_left">16sp</dimen>
+    
+    <dimen name="menu_list_padding_left">15dp</dimen>
+    <dimen name="menu_list_padding">10dp</dimen>
+
+    <dimen name="product_list_item_padding">10dp</dimen>
+
+    <!-- loading -->
+    <dimen name="loading_margin">20dp</dimen>
+    <dimen name="loading_text_size">18sp</dimen>
+
+    <!-- main tab -->
+    <dimen name="main_tab_padding">5dp</dimen>
+    <dimen name="main_tab_text_size">11sp</dimen>
+
+    <!-- blue confirm button text size -->
+    <dimen name="confirm_button_text_size">24sp</dimen>
+    <dimen name="confirm_button_margin">10dp</dimen>
+    <dimen name="confirm_button_height">60dp</dimen>
+    <dimen name="confirm_button_marginTop">50dp</dimen>
+    <dimen name="confirm_button_marginTop2">15dp</dimen>
+
+    <!-- logon -->
+    <dimen name="logon_imageView_marginTop">20dp</dimen>
+    <dimen name="logon_relative_marginTop">40dp</dimen>
+    <dimen name="logon_view_margin">28dp</dimen>
+    <dimen name="logon_gray_line_margin">15dp</dimen>
+    <dimen name="logon_textView_psw_marginTop">30dp</dimen>
+    <dimen name="logon_gray_line_marginTop">10dp</dimen>
+    <dimen name="logon_logon_button_marginTop">30dp</dimen>
+    <dimen name="logon_register_button_marginBottom">10dp</dimen>
+    <dimen name="logon_text_size">18sp</dimen>
+    <dimen name="reset_logon_set_psw_marginTop">30dp</dimen>
+    <dimen name="reset_logon_check_code_marginTop">50dp</dimen>
+    <dimen name="logon_qa_textSize">16sp</dimen>
+    <dimen name="register_height">30dp</dimen>
+
+
+    <dimen name="gray_line_margin">15dp</dimen>
+
+    <!-- register -->
+    <dimen name="step_marginTop">60dp</dimen>
+    <dimen name="step_phone_marginLeft">26dp</dimen>
+    <dimen name="step_edit_marginLeft">5dp</dimen>
+    <dimen name="register_view_marginTop">30dp</dimen>
+    <dimen name="register_view_marginBottom">5dp</dimen>
+    <dimen name="register_step1_view_marginLeft">5dp</dimen>
+    <dimen name="register_step1_less_marginLeft">30dp</dimen>
+    <dimen name="register_view_margin">15dp</dimen>
+    <dimen name="register_margin">16dp</dimen>
+    <dimen name="register_text_size">16sp</dimen>
+    <dimen name="register_text_size2">14sp</dimen>
+    <dimen name="fragment_register_fail_image_width">300dp</dimen>
+    <dimen name="fragment_register_fail_image_height">120dp</dimen>
+    <dimen name="fragment_register_fail_image_marginTop">50dp</dimen>
+    <dimen name="fragment_register_fail_marginTop">30dp</dimen>
+    <dimen name="fragment_register_fail_text_size">30sp</dimen>
+    <dimen name="fragment_register_fail_btn_marginTop">30dp</dimen>
+    <dimen name="dialog_agreement_title_text_size">20sp</dimen>
+    <dimen name="dialog_agreement_body_text_size">18sp</dimen>
+    <dimen name="dialog_agreement_padding">10dp</dimen>
+    <dimen name="btn_get_msg_padding">15dp</dimen>
+    <dimen name="btn_get_msg_text_size">12dp</dimen>
+    <dimen name="btn_get_msg_minHeight">40dp</dimen>
+    <dimen name="register_gray_line_marginTop">20dp</dimen>
+
+    <!-- person account-->
+    <dimen name="account_padding">5dp</dimen>
+    <dimen name="account_text_size">14sp</dimen>
+
+    <!-- gray line -->
+    <dimen name="gray_line_marginTop">40dp</dimen>
+    <dimen name="gray_line_middle_marginTop">10dp</dimen>
+    <dimen name="loan_quicklogon_padding2">10dp</dimen>
+    <dimen name="loan_quicklogon_relative_left">15dp</dimen>
+    <dimen name="loan_quicklogon_relative_top">10dp</dimen>
+    <dimen name="agreement">10sp</dimen>
+
+    <!-- real_name -->
+    <dimen name="real_name_gray_line_marginTop">40dp</dimen>
+    <dimen name="real_name_gray_line_second_marginTop">10dp</dimen>
+
+    <!-- invite friends -->
+    <dimen name="invite_friends_padding">10dp</dimen>
+    <dimen name="invite_friends_textSize">20sp</dimen>
+    <dimen name="fragment_invite_friends_button_marginTop">40dp</dimen>
+    <dimen name="invite_record_list_padding">16dp</dimen>
+    <dimen name="invite_record_list_marginTop">4dp</dimen>
+    <dimen name="invite_record_list_text_size">14sp</dimen>
+    <dimen name="fragment_invite_friends_text_marginTop">20dp</dimen>
+    <dimen name="fragment_invite_friends_image_marginTop">30dp</dimen>
+    <dimen name="fragment_invite_friends_image_height">250dp</dimen>
+
+    <!-- person center list -->
+    <dimen name="list_view_padding">15dp</dimen>
+    <dimen name="list_view_margin">10dp</dimen>
+    <dimen name="list_view_marginTop_less">8dp</dimen>
+    <dimen name="list_view_marginTop">20dp</dimen>
+    <dimen name="list_text_size">18sp</dimen>
+    <dimen name="gray_line_marginLeft">50dp</dimen>
+    <dimen name="safe_out_height">50dp</dimen>
+    <dimen name="list_text_small_text_size">16sp</dimen>
+    <dimen name="help_center_grid_image_height">35dp</dimen>
+    <dimen name="help_center_grid_padding">5dp</dimen>
+
+
+    <!-- help center -->
+    <dimen name="help_line_marginLeft">25dp</dimen>
+    <dimen name="help_view_margin">40dp</dimen>
+    <dimen name="fragment_help_center_maarginTop">25dp</dimen>
+    <dimen name="fragment_help_center_padding">10dp</dimen>
+    <dimen name="fragment_help_center">20dp</dimen>
+    <dimen name="fragment_help_center_text_size">18sp</dimen>
+
+    <!-- feedback -->
+    <dimen name="feedback_marginTop">2dp</dimen>
+    <dimen name="feedback_linear_marginTop">10dp</dimen>
+    <dimen name="feedback_padding">15dp</dimen>
+    <dimen name="feedback_text_marginLeft">20dp</dimen>
+    <dimen name="feedback_text_size">20sp</dimen>
+    <dimen name="feedback_Consultation_marginLeft">30dp</dimen>
+    <dimen name="feedback_Consultation_text_size">17sp</dimen>
+    <dimen name="feedback_btn_height">45dp</dimen>
+    <dimen name="feedback_btn_margin">20dp</dimen>
+
+
+    <!-- info input view -->
+    <dimen name="info_input_check_padding">10dp</dimen>
+    <dimen name="info_input_internal_marginTop">25dp</dimen>
+    <dimen name="info_input_padding">15dp</dimen>
+    <dimen name="info_input_marginLeft">20dp</dimen>
+    <dimen name="info_input_line_padding">30dp</dimen>
+    <dimen name="info_input_double_padding">40dp</dimen>
+    <dimen name="info_input_marginTop">25dp</dimen>
+    <dimen name="info_input_text_size">15sp</dimen>
+    <dimen name="info_input_first_view_marginTop">40dp</dimen>
+    <dimen name="info_input_view_marginTop">10dp</dimen>
+
+    <!-- set trans password -->
+    <dimen name="set_trans_psw_gray_line_marginTop">40dp</dimen>
+    <dimen name="set_trans_psw_gray_line_second_marginTop">10dp</dimen>
+
+    <!-- my invest -->
+    <dimen name="fragment_my_invest_height">50dp</dimen>
+    <dimen name="fragment_my_invest_text_size">18sp</dimen>
+    <dimen name="my_invest_item_height">40dp</dimen>
+    <dimen name="my_invest_item_paddingLeft">18dp</dimen>
+    <dimen name="my_invest_item_text_size">22sp</dimen>
+    <dimen name="my_invest_item_linear_height">70dp</dimen>
+    <dimen name="my_invest_item_linear_text_size">15sp</dimen>
+    <dimen name="my_invest_item_text_marginLeft">15dp</dimen>
+    <dimen name="my_invest_text_size">13sp</dimen>
+    <dimen name="my_invest_item_money_text_size">15sp</dimen>
+    <dimen name="my_invest_marginLeft">18dp</dimen>
+    <dimen name="my_invest_marginRight">10dp</dimen>
+    <dimen name="my_invest_height">30dp</dimen>
+
+    <!-- myinvest detail -->
+    <dimen name="myinvest_detail_title_marginLeft">15dp</dimen>
+    <dimen name="myinvest_detail_title_marginRight">15dp</dimen>
+    <dimen name="myinvest_detail_title_text_size">22sp</dimen>
+    <dimen name="myinvest_detail_text_size">18sp</dimen>
+
+    <!-- payment -->
+    <dimen name="myinvest_padding">15dp</dimen>
+    <dimen name="myinvest_payment_textSize">14sp</dimen>
+
+    <!-- recominvest -->
+    <dimen name="recominvest_viewPager_height">160dp</dimen>
+    <dimen name="recominvest_linear_marginTop">140dp</dimen>
+    <dimen name="recominvest_image_height">10dp</dimen>
+    <dimen name="recominvest_image_marginRight">4dp</dimen>
+    <dimen name="recominvest_paddingTopAndBotton">8dp</dimen>
+    <dimen name="recominvest_paddingLeftAndRight">10dp</dimen>
+    <dimen name="recominvest_marginLeft">10dp</dimen>
+    <dimen name="recominvest_text_size">14sp</dimen>
+    <dimen name="recominvest_circleProgressBar_width">240dp</dimen>
+    <dimen name="recominvest_circleProgressBar_height">120dp</dimen>
+    <dimen name="recominvest_circleProgressBar_marginTop">20dp</dimen>
+    <dimen name="recominvest_circleProgressBar_circleWidth">10dp</dimen>
+    <dimen name="recominvest_circleProgressBar_innerWidth">8dp</dimen>
+    <dimen name="recominvest_from_invest_marginLeft">20dp</dimen>
+    <dimen name="recominvest_from_invest_paddingLeft">4dp</dimen>
+    <dimen name="recominvest_from_invest_text_size">16sp</dimen>
+
+
+    <!-- dialog -->
+    <dimen name="dialog_title_padding">15dp</dimen>
+    <dimen name="dialog_title_text_size">18sp</dimen>
+
+    <!-- dialog pay -->
+    <dimen name="dialog_pay_title_padding">10dp</dimen>
+    <dimen name="dialog_pay_title_text_size">20sp</dimen>
+    <dimen name="dialog_pay_relative_marginTop">40dp</dimen>
+    <dimen name="dialog_pay_relative_paddingTop">20dp</dimen>
+    <dimen name="dialog_pay_relative_padding">15dp</dimen>
+    <dimen name="dialog_pay_text_size">16sp</dimen>
+    <dimen name="dialog_pay_edit_marginLeft">30dp</dimen>
+    <dimen name="dialog_pay_edit_second_marginLeft">10dp</dimen>
+    <dimen name="dialog_pay_check_btn_marginLeft">20dp</dimen>
+    <dimen name="dialog_pay_btn_marginTop">10dp</dimen>
+    <dimen name="dialog_pay_btn_margin">4dp</dimen>
+    <dimen name="dialog_pay_gray_line_margin">15dp</dimen>
+    <dimen name="dialog_get_msg_btn_min_height">36dp</dimen>
+
+    <!-- dialog recharge and withdraw check -->
+    <dimen name="dialog_recharge_check_title_padding">10dp</dimen>
+    <dimen name="dialog_recharge_check_title_text_size">24sp</dimen>
+    <dimen name="dialog_recharge_check_text_size">20sp</dimen>
+    <dimen name="dialog_recharge_btn_marginTop">5dp</dimen>
+
+    <!-- bank card -->
+    <dimen name="bank_card_name_size">18sp</dimen>
+    <dimen name="bank_card_limit_size">14sp</dimen>
+    <dimen name="bank_card_view_margin">20dp</dimen>
+    <dimen name="bank_list_width">157dp</dimen>
+    <dimen name="bank_list_height">44dp</dimen>
+
+    <dimen name="fragment_bank_marginTop">40dp</dimen>
+
+    <!-- bbankbg_0403bank card -->
+    <dimen name="bind_bank_card_gray_line_marginTop">40dp</dimen>
+    <dimen name="bind_bank_card_second_gray_line_marginTop">10dp</dimen>
+
+    <!-- red package -->
+    <dimen name="red_packae_list_padding">10dp</dimen>
+    <dimen name="red_package_marginLeft">20dp</dimen>
+    <dimen name="red_package_marginTop">10dp</dimen>
+    <dimen name="red_package_item_height">100dp</dimen>
+    <dimen name="red_package_item_redpackage_text_size">20sp</dimen>
+    <dimen name="red_package_item_text_size">16sp</dimen>
+    <dimen name="red_package_item_small_text_size">14sp</dimen>
+    <dimen name="red_package_item_money_text_size">30sp</dimen>
+    <dimen name="red_package_item_padding">5dp</dimen>
+
+    <!-- pay result -->
+    <dimen name="pay_result_imageView_marginTop">30dp</dimen>
+    <dimen name="pay_result_title_marginTop">10dp</dimen>
+    <dimen name="pay_result_title_text_size">30sp</dimen>
+    <dimen name="pay_result_money_text_size">20sp</dimen>
+    <dimen name="pay_result_first_linear_paddingTop">8dp</dimen>
+    <dimen name="pay_result_linear_paddingTop">4dp</dimen>
+    <dimen name="pay_result_linear_paddingLeft">30dp</dimen>
+    <dimen name="pay_result_linear_paddingBottom">4dp</dimen>
+    <dimen name="pay_result_textView_paddingLeft">20dp</dimen>
+    <dimen name="pay_result_text_size">16sp</dimen>
+    <dimen name="pay_result_continue_button_marginTop">8dp</dimen>
+    <dimen name="pay_result_account_button_marginTop">12dp</dimen>
+
+    <!-- plan invest -->
+    <dimen name="plan_padding">15dp</dimen>
+    <dimen name="plan_paddingTop">10dp</dimen>
+    <dimen name="plan_paddingTop_x">12dp</dimen>
+    <dimen name="plan_paddingBottom">5dp</dimen>
+    <dimen name="plan_paddingBottom_x">10dp</dimen>
+    <dimen name="plan_margin">15dp</dimen>
+    <dimen name="plan_center_marginTop">14dp</dimen>
+    <dimen name="plan_marginTop">10dp</dimen>
+    <dimen name="plan_marginLeft">4dp</dimen>
+    <dimen name="plan_marginLeft_x">10dp</dimen>
+    <dimen name="plan_marginLeft_xx">20dp</dimen>
+    <dimen name="margin_Top">14dp</dimen>
+    <dimen name="plan_marginLeft_invest_term_normal">40dp</dimen>
+    <dimen name="plan_title">18sp</dimen>
+    <dimen name="plan_title2">14sp</dimen>
+    <dimen name="plan_info">10sp</dimen>
+
+    <!-- plan list item -->
+    <dimen name="plan_list_item_marginRight">8dp</dimen>
+    <dimen name="plan_list_item_marginTop">10dp</dimen>
+    <dimen name="plan_list_item_image_width">40dp</dimen>
+    <dimen name="plan_list_item_linear_marginTop">14dp</dimen>
+    <dimen name="plan_list_item_linear_text_size">20sp</dimen>
+    <dimen name="plan_list_item_small_text_size">14sp</dimen>
+    <dimen name="plan_list_item_textView_marginTop">10dp</dimen>
+
+    <!-- lend list item -->
+    <dimen name="invest_ad_height">190dp</dimen>
+    <dimen name="invest_ad_dot_marginBottom">10dp</dimen>
+    <dimen name="invest_ad_dot_padding">10dp</dimen>
+    <dimen name="invest_introduce_padding">5dp</dimen>
+    <dimen name="invest_introduce_textSize">10sp</dimen>
+    <dimen name="lend_list_item_padding">10dp</dimen>
+    <dimen name="lend_list_item_padding_small">5dp</dimen>
+    <dimen name="lend_list_item_paddingLeft">15dp</dimen>
+    <dimen name="lend_list_item_margin">20dp</dimen>
+    <dimen name="lend_list_item_view_margin">15dp</dimen>
+
+    <!-- lend details -->
+    <dimen name="lend_details_name_paddingBottom">4dp</dimen>
+    <dimen name="lend_details_name_marginTop">10dp</dimen>
+    <dimen name="lend_details_text_size">17sp</dimen>
+    <dimen name="lend_details_name_text_size">20sp</dimen>
+    <dimen name="lend_details_money_marginTop">10dp</dimen>
+    <dimen name="lend_details_money_text_size">30sp</dimen>
+    <dimen name="lend_details_progressView_height">20dp</dimen>
+    <dimen name="lend_details_progressView_margin">15dp</dimen>
+    <dimen name="lend_details_amount_text_marginTop">5dp</dimen>
+    <dimen name="lend_details_amount_text_marginRight">20dp</dimen>
+    <dimen name="lend_details_value_date_show_marginLeft">24dp</dimen>
+    <dimen name="lend_details_amount_text_size">15sp</dimen>
+    <dimen name="lend_detaila_linear_marginTop">10dp</dimen>
+    <dimen name="lend_detaila_linear_marginLeft">20dp</dimen>
+    <dimen name="lend_details_base_info_marginTop">16dp</dimen>
+    <dimen name="lend_details_textView_marginLeft">18dp</dimen>
+    <dimen name="lend_details_linear_text_size">26sp</dimen>
+    <dimen name="lend_details_gray_line_margin">18dp</dimen>
+    <dimen name="lend_details_image_height">30dp</dimen>
+    <dimen name="lend_info_padding">15dp</dimen>
+    <dimen name="lend_info_padding1">8dp</dimen>
+    <dimen name="lend_info_item_padding_left">20dp</dimen>
+    <dimen name="lend_info_textSize">14sp</dimen>
+
+    <!-- experience details -->
+    <dimen name="experience_details_project_name_textSize">25sp</dimen>
+    <dimen name="experience_details_project_name_margin">20dp</dimen>
+
+    <!-- plan details -->
+    <dimen name="plan_details_title_textView_margin">10dp</dimen>
+    <dimen name="plan_details_title_text_size">24sp</dimen>
+    <dimen name="plan_details_gray_line_margin">15dp</dimen>
+    <dimen name="plan_detials_period_show_marginLeft">25dp</dimen>
+    <dimen name="plan_details_date_text_margin">15dp</dimen>
+    <dimen name="plan_details_info_text_size">18sp</dimen>
+    <dimen name="plan_details_relative_margin">15dp</dimen>
+    <dimen name="plan_details_relative_padding">10dp</dimen>
+    <dimen name="plan_details_text_maginTop">10dp</dimen>
+    <dimen name="plan_details_progress_height">20dp</dimen>
+    <dimen name="plan_details_progress_margin">15dp</dimen>
+    <dimen name="plan_details_marginLeft">15dp</dimen>
+    <dimen name="plan_details_paddingLeftAndRight">15dp</dimen>
+    <dimen name="plan_detials_paddingTopAndBottom">10dp</dimen>
+    <dimen name="plan_details_linear_marginLeft">20dp</dimen>
+    <dimen name="plan_details_button_marginBotton">10dp</dimen>
+
+    <!-- invest -->
+    <dimen name="invest_title_textSize">26sp</dimen>
+    <dimen name="invest_info_textSize">18sp</dimen>
+    <dimen name="invest_success_item_textSize">18sp</dimen>
+    <dimen name="invest_success_item_margin">10dp</dimen>
+    <dimen name="invest_success_margin1">20dp</dimen>
+    <dimen name="invest_coupon_item_padding">10dp</dimen>
+
+    <!-- recharge and withdraw-->
+    <dimen name="recharge_bank_relative_marginTop">20dp</dimen>
+    <dimen name="recharge_bank_image_height">46dp</dimen>
+    <dimen name="recharge_bank_image_marginLeft">30dp</dimen>
+    <dimen name="recharge_bank_marginLeft">8dp</dimen>
+    <dimen name="recharge_bank_marginTop">10dp</dimen>
+    <dimen name="recharge_bank_norm_marginTop">5dp</dimen>
+    <dimen name="recharge_bank_right_padding">10dp</dimen>
+    <dimen name="recharge_marginTop">20dp</dimen>
+    <dimen name="recharge_padding">20dp</dimen>
+    <dimen name="recharge_text_size">20sp</dimen>
+    <dimen name="recharge_text_marginLeft">25dp</dimen>
+    <dimen name="recharge_text_marginTop">18dp</dimen>
+    <dimen name="recharge_btn_margin">15dp</dimen>
+    <dimen name="withdraw_text_size">14sp</dimen>
+
+    <!-- transRecord screen -->
+    <dimen name="tranRecord_screen_height">45dp</dimen>
+    <dimen name="tranRecord_screen_text_size">18sp</dimen>
+    <dimen name="tranRecord_screen_linear_maginLeft">20dp</dimen>
+    <dimen name="trade_record_list_bank_text_size">14sp</dimen>
+    <dimen name="trade_record_list_text_size">18sp</dimen>
+    <dimen name="trade_record_list_money_size">20sp</dimen>
+    <dimen name="trade_record_list_marginLeft">30dp</dimen>
+    <dimen name="trade_record_list_margin">5dp</dimen>
+    <dimen name="trade_record_list_pading">14dp</dimen>
+    <dimen name="screening_padding">10dp</dimen>
+    <dimen name="screening_paddingTop">20dp</dimen>
+    <dimen name="screening_marginTop">5dp</dimen>
+    <dimen name="screening_marginLeft">5dp</dimen>
+    <dimen name="reset_trans_check_marginLeft">35dp</dimen>
+    <dimen name="reset_trans_check_marginBottom">10dp</dimen>
+    <dimen name="reset_trans_check_padding">20dp</dimen>
+    <dimen name="reset_trans_check_textView_marginTop">40dp</dimen>
+    <dimen name="reset_trans_check_edit_marginRight">5dp</dimen>
+
+    <!-- account list -->
+    <dimen name="account_list_all_assest_linear_marginLeft">15dp</dimen>
+    <dimen name="account_list_all_assest_btn_text_size">21sp</dimen>
+    <dimen name="account_list_all_assest_text_size">28sp</dimen>
+    <dimen name="account_list_text_size">20sp</dimen>
+    <dimen name="account_list_text_amout">33sp</dimen>
+    <dimen name="account_list_text_sizes">14sp</dimen>
+    <dimen name="account_list_text_sizess">18sp</dimen>
+
+    <dimen name="account_list_grid_marginTop">20dp</dimen>
+
+    <!-- toatal revenue -->
+    <dimen name="toatal_revenue_roundView_width">200dp</dimen>
+    <dimen name="toatal_revenue_ringWidth">10dp</dimen>
+    <dimen name="toatal_revenue_marginTop">3dp</dimen>
+    <dimen name="toatal_revenue_text_size">18sp</dimen>
+
+
+    <!-- empty view -->
+    <dimen name="empty_view_text_size">20sp</dimen>
+
+    <!-- popupwindow -->
+    <dimen name="dividerHeight">0.5dp</dimen>
+    <dimen name="paddingTop">5dp</dimen>
+
+    <!-- message -->
+    <dimen name="message_padding">10dp</dimen>
+    <dimen name="message_title_textSize">20sp</dimen>
+    <dimen name="news_title_textSize">14sp</dimen>
+    <dimen name="message_time_textSize">16sp</dimen>
+    <dimen name="news_time_textSize">9sp</dimen>
+    <dimen name="message_btn_textSize">18sp</dimen>
+</resources>

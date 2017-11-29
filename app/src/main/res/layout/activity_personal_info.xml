@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_content_bg"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dark_content_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            style="@style/MenuListPanel"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                style="@style/MenuListItem"
+                android:layout_height="78dp">
+
+                <TextView
+                    style="@style/MenuListItemText1"
+                    android:text="@string/head_portrait" />
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:id="@+id/head_img"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginRight="21dp"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/default_head"
+                    app:riv_mutate_background="true"
+                    app:riv_oval="true" />
+
+            </LinearLayout>
+
+            <View
+                style="@style/Divide"
+                android:layout_marginLeft="20dp" />
+
+            <LinearLayout style="@style/MenuListItem">
+
+                <TextView
+                    style="@style/MenuListItemText1"
+                    android:text="@string/phone_num" />
+
+                <TextView
+                    android:id="@+id/phone_num_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#4a4a4a"
+                    android:textSize="14sp" />
+
+                <ImageView style="@style/MenuListItemArrow" />
+
+            </LinearLayout>
+
+            <View
+                style="@style/Divide"
+                android:layout_marginLeft="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/MenuListPanel"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:id="@+id/realname_layout"
+                style="@style/MenuListItem">
+
+                <TextView
+                    style="@style/MenuListItemText1"
+                    android:text="@string/realname" />
+
+                <ImageView
+                    android:id="@+id/realname_status_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:src="@mipmap/status_unset" />
+
+                <TextView
+                    android:id="@+id/realname_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/unset"
+                    android:textColor="@color/status_unset"
+                    android:textSize="14sp" />
+
+                <ImageView style="@style/MenuListItemArrow" />
+
+            </LinearLayout>
+
+            <View
+                style="@style/Divide"
+                android:layout_marginLeft="20dp" />
+
+            <LinearLayout
+                android:id="@+id/my_invite_layout"
+                style="@style/MenuListItem">
+
+                <TextView
+                    style="@style/MenuListItemText1"
+                    android:text="@string/my_invite" />
+
+                <ImageView style="@style/MenuListItemArrow" />
+
+            </LinearLayout>
+
+            <View
+                style="@style/Divide"
+                android:layout_marginLeft="20dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/safe_exit_btn"
+            style="@style/BtnTheme2"
+            android:layout_marginTop="40dp"
+            android:text="@string/safe_exit" />
+
+    </LinearLayout>
+
+</LinearLayout>

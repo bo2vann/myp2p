@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray_bg">#efeff5</color>
+    <color name="gray_line">#cccccc</color>
+    <color name="gray_text">#80858c</color>
+
+    <!-- 导航栏 -->
+    <color name="actionbar">#fb4552</color> <!-- 导航栏背景色 -->
+    <color name="actionbar_title">#ffffff</color> <!-- 导航栏标题文字颜色 -->
+    <color name="actionbar_right">#ffffff</color> <!-- 导航栏右按钮文字颜色 -->
+    <color name="actionbar_left">#ffffff</color> <!-- 导航栏左按钮文字颜色 -->
+
+    <color name="main_tab_bg">#fafafa</color>
+    <color name="main_tab_inset">#c6cddd</color>
+    
+    
+    <color name="content_bg">#ffffff</color> <!-- 正文背景色 -->
+    <color name="light_content_bg">#fb4552</color>
+    <color name="dark_content_bg">#f4f4f4</color>
+
+    <color name="btn_bg1">#f67474</color>
+    <color name="btn_textColor1">#FAABAB</color>
+    <color name="btn_bg2">#FB4552</color>
+    <color name="btn_bg2_click">#F39293</color>
+    <color name="btn_textColor2">#ffffff</color>
+
+    <color name="bind_send_msg">#4BA1FF</color>
+    <color name="bind_send_msg_unable">#e5e5e5</color>
+
+    <color name="progress_bg">#e5e5e5</color>
+    <color name="progress_color">#fb4552</color>
+
+    <color name="forget_password_text">#ffffff</color> <!-- 忘记密码字体颜色 -->
+
+    <color name="list_divide">#e5e5e5</color> <!-- 列表分割线颜色 -->
+    <color name="cut_off">#cccccc</color> <!-- 分割线颜色 -->
+
+
+    <!-- 主页 -->
+    <color name="main_tab_select">#fb4552</color> <!-- tab选中 -->
+    <color name="main_tab_unselect">#c6c7c8</color> <!-- tab未选中 -->
+
+    <!-- 确认按键 -->
+    <color name="confirm_btn_bg">#0074c5</color> <!-- 按键背景色 -->
+
+    <color name="msg_unable_bg">#BCBCBC</color>
+    <color name="msg_able_bg">#FF7800</color>
+
+    <!-- 手势密码 -->
+    <color name="gesture_line">#fb4552</color>
+    <color name="gesture_actionbar">#0c2838</color>
+    <color name="gesture_background">#ffffff</color>
+
+    <color name="status_unset">#fb4552</color>
+    <color name="status_set">#44db5e</color>
+    
+    <color name="preheat">#335599</color>
+    <color name="full">#eef1f5</color>
+    <color name="full_bg">#C8D3DE</color>
+</resources>

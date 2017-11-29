@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_content_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/InputPanel2"
+        android:layout_marginTop="36dp">
+
+        <EditText
+            android:id="@+id/certid_edit"
+            style="@style/InputTheme2"
+            android:hint="@string/certid_hint"
+            android:inputType="text" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next_step_btn"
+        style="@style/BtnTheme2"
+        android:layout_marginTop="30dp"
+        android:text="@string/next_step" />
+
+
+</LinearLayout>

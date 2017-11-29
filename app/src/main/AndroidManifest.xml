@@ -1,0 +1,239 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.think.android.p2p">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name="com.think.android.p2p.base.BaseApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.think.android.p2p.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_path" />
+        </provider>
+
+        <!-- 启动页 -->
+        <activity
+            android:name=".ui.LoadingActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 欢迎页 -->
+        <activity
+            android:name=".ui.WelcomeActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:screenOrientation="portrait" />
+
+        <!-- 主页 -->
+        <activity
+            android:name=".ui.MainActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <!-- 登录 -->
+        <activity
+            android:name=".ui.safe.logon.LogonActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+
+        <!-- 注册 -->
+        <activity
+            android:name=".ui.safe.register.RegisterActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:screenOrientation="portrait" />
+
+        <!-- 找回密码 -->
+        <activity
+            android:name=".ui.safe.findpwd.FindPwdActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:screenOrientation="portrait" />
+
+        <!-- 绘制手势密码 -->
+        <activity
+            android:name=".ui.safe.gesturepwd.GestureToUnlockActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:screenOrientation="portrait" />
+
+        <!-- 设置支付密码 -->
+        <activity
+            android:name=".ui.account.security.PayPasswordSetActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:screenOrientation="portrait" />
+
+        <!-- 修改登录密码 -->
+        <activity
+            android:name=".ui.account.security.LogonPasswordModifyActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:screenOrientation="portrait" />
+
+        <!-- 投资详情 -->
+        <activity
+            android:name=".ui.invest.InvestActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:screenOrientation="portrait" />
+
+        <!-- 支付 -->
+        <activity
+            android:name=".ui.invest.PayActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:screenOrientation="portrait" />
+
+        <!-- 充值 -->
+        <activity
+            android:name=".ui.property.recharge.RechargeActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:screenOrientation="portrait" />
+
+        <!-- 提现 -->
+        <activity
+            android:name=".ui.property.withdraw.WithdrawActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:screenOrientation="portrait" />
+
+        <!-- 交易记录 -->
+        <activity
+            android:name=".ui.property.transrecord.TransRecordActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:screenOrientation="portrait" />
+
+        <!-- 投资记录 -->
+        <activity
+            android:name=".ui.property.myinvest.MyInvestRecordActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:screenOrientation="portrait" />
+
+        <!-- 投资记录详情 -->
+        <activity
+            android:name=".ui.property.myinvest.MyInvestDetailActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:screenOrientation="portrait" />
+
+        <!-- 待收资产 -->
+        <activity
+            android:name=".ui.property.dueproperty.DuePropertyActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:screenOrientation="portrait" />
+
+        <!-- 待收收益 -->
+        <activity
+            android:name=".ui.property.dueprofit.DueProfitActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:screenOrientation="portrait" />
+
+        <!-- 银行卡管理 -->
+        <activity
+            android:name=".ui.account.bankcard.BankCardManageActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:screenOrientation="portrait" />
+
+        <!-- 选择银行卡 -->
+        <activity
+            android:name=".ui.account.bankcard.SelectBankcardActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:screenOrientation="portrait" />
+
+        <!-- 绑卡 -->
+        <activity
+            android:name=".ui.account.bankcard.BindBankCardActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:screenOrientation="portrait" />
+
+        <!-- 账户信息安全 -->
+        <activity
+            android:name=".ui.account.security.SecurityActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:screenOrientation="portrait" />
+
+        <!-- 个人信息 -->
+        <activity
+            android:name=".ui.account.personalinfo.PersonalInfoActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:screenOrientation="portrait" />
+
+        <!-- 消息中心 -->
+        <activity
+            android:name=".ui.account.message.MessageActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:screenOrientation="portrait" />
+
+        <!-- 消息详情 -->
+        <activity
+            android:name=".ui.account.message.MessageDetailActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:screenOrientation="portrait" />
+
+        <!-- 关于我们 -->
+        <activity
+            android:name=".ui.account.about.AboutActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:screenOrientation="portrait" />
+
+        <!-- 平台介绍 -->
+        <activity
+            android:name=".ui.account.about.PlatformIntroduceActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:screenOrientation="portrait" />
+
+        <!-- 安全保障 -->
+        <activity
+            android:name=".ui.account.about.SecurityGuaranteeActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:screenOrientation="portrait" />
+
+        <!-- 常见问题 -->
+        <activity
+            android:name=".ui.account.about.CommonProblemActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:screenOrientation="portrait" />
+
+        <!-- 列表问题问答 -->
+        <activity
+            android:name=".ui.account.about.QAListActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:screenOrientation="portrait" />
+
+        <!-- 推荐给好友 -->
+        <activity
+            android:name=".ui.account.invite.InviteActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:screenOrientation="portrait" />
+
+        <!-- 我的邀请 -->
+        <activity
+            android:name=".ui.account.invite.MyInviteActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:screenOrientation="portrait" />
+
+        <!-- 协议 -->
+        <activity
+            android:name=".ui.ProtocolActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>

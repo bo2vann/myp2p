@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="witness_text_enterprise">
+        <item>营业执照</item>
+        <item>融资方经营场所实地认证</item>
+        <item>税务登记</item>
+        <item>财务报表已审计</item>
+        <item>组织机构代码证</item>
+        <item>融资方从业年限</item>
+        <item>基本账户开户许可</item>
+        <item>融资方已在银行授信</item>
+        <item>融资方成立年限</item>
+        <item>人行征信——无不良信用记录</item>
+        <item>授信方式-抵押</item>
+        <item>授信方式-质押</item>
+    </string-array>
+
+    <integer-array name="witness_img_enterprise">
+        <item>@mipmap/witness_1</item>
+        <item>@mipmap/witness_2</item>
+        <item>@mipmap/witness_3</item>
+        <item>@mipmap/witness_4</item>
+        <item>@mipmap/witness_5</item>
+        <item>@mipmap/witness_6</item>
+        <item>@mipmap/witness_7</item>
+        <item>@mipmap/witness_8</item>
+        <item>@mipmap/witness_9</item>
+        <item>@mipmap/witness_10</item>
+        <item>@mipmap/witness_11</item>
+        <item>@mipmap/witness_12</item>
+    </integer-array>
+    
+    <string-array name="witness_text_individual">
+        <item>融资方从业年限</item>
+        <item>人行征信——无不良信用记录</item>
+    </string-array>
+
+    <integer-array name="witness_img_individual">
+        <item>@mipmap/witness_6</item>
+        <item>@mipmap/witness_10</item>
+    </integer-array>
+</resources>

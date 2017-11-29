@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_content_bg"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/dark_content_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="11dp"
+            android:layout_marginRight="11dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/round_corner_white_bg"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/project_name_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="27dp"
+                    android:layout_marginTop="23dp"
+                    android:layout_weight="1"
+                    android:textColor="#4a4a4a"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    style="@style/MenuListItemArrow"
+                    android:layout_marginRight="18dp"
+                    android:layout_marginTop="26dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/MyInvestItem"
+                android:layout_marginTop="22dp">
+
+                <TextView
+                    style="@style/MyInvestItemFirst"
+                    android:text="@string/invest_status" />
+
+                <TextView
+                    android:id="@+id/invest_status_text"
+                    style="@style/MyInvestItemSecond"
+                    android:textColor="#fb4552" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/MyInvestItem">
+
+                <TextView
+                    style="@style/MyInvestItemFirst"
+                    android:text="@string/invest_amount" />
+
+                <TextView
+                    android:id="@+id/invest_amount_text"
+                    style="@style/MyInvestItemSecond" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/MyInvestItem">
+
+                <TextView
+                    style="@style/MyInvestItemFirst"
+                    android:text="@string/expected_income" />
+
+                <TextView
+                    android:id="@+id/expected_income_text"
+                    style="@style/MyInvestItemSecond" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/MyInvestItem"
+                android:layout_marginBottom="18dp">
+
+                <TextView
+                    style="@style/MyInvestItemFirst"
+                    android:text="@string/invest_time" />
+
+                <TextView
+                    android:id="@+id/invest_time_text"
+                    style="@style/MyInvestItemSecond" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:background="@drawable/dash_line"
+                android:layerType="software" />
+
+            <LinearLayout
+                style="@style/MyInvestItem"
+                android:layout_marginTop="18dp">
+
+                <TextView
+                    style="@style/MyInvestItemFirst"
+                    android:text="@string/financing_amount" />
+
+                <TextView
+                    android:id="@+id/financing_amount_text"
+                    style="@style/MyInvestItemSecond" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/MyInvestItem"
+                android:layout_marginBottom="18dp">
+
+                <TextView
+                    style="@style/MyInvestItemFirst"
+                    android:text="@string/annualized_return" />
+
+                <TextView
+                    android:id="@+id/annualized_return_text"
+                    style="@style/MyInvestItemSecond" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp"
+                android:background="@drawable/dash_line"
+                android:layerType="software" />
+
+            <LinearLayout
+                style="@style/MyInvestItem"
+                android:layout_marginTop="18dp">
+
+                <TextView
+                    style="@style/MyInvestItemFirst"
+                    android:text="@string/project_interest_date" />
+
+                <TextView
+                    android:id="@+id/interest_date_text"
+                    style="@style/MyInvestItemSecond" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/MyInvestItem"
+                android:layout_marginBottom="18dp">
+
+                <TextView
+                    style="@style/MyInvestItemFirst"
+                    android:text="@string/project_due_date" />
+
+                <TextView
+                    android:id="@+id/due_date_text"
+                    style="@style/MyInvestItemSecond" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom|center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/protocol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/see_protocol"
+                android:textColor="#ff6a00"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

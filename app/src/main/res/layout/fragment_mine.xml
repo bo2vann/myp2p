@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_content_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@mipmap/mine_bg"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/head_img"
+            android:layout_width="83dp"
+            android:layout_height="83dp"
+            android:layout_marginTop="37dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/default_head"
+            app:riv_mutate_background="true"
+            app:riv_oval="true" />
+
+        <TextView
+            android:id="@+id/mobile_text"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/white"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/realname_status_text"
+            android:layout_width="62dp"
+            android:layout_height="17dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/mine_auth_bg"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/MenuListPanel"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:id="@+id/bankcard_layout"
+            style="@style/MenuListItem">
+
+            <TextView
+                style="@style/MenuListItemText1"
+                android:text="@string/my_bankcard" />
+
+            <TextView
+                android:id="@+id/bind_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unbind_card"
+                android:textColor="#c7c7cd"
+                android:textSize="14sp" />
+
+            <ImageView style="@style/MenuListItemArrow" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/Divide"
+            android:layout_marginLeft="22dp" />
+
+        <LinearLayout
+            android:id="@+id/security_layout"
+            style="@style/MenuListItem">
+
+
+            <TextView
+                style="@style/MenuListItemText1"
+                android:text="@string/account_safe" />
+
+            <ImageView style="@style/MenuListItemArrow" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/Divide"
+            android:layout_marginLeft="22dp" />
+
+        <LinearLayout
+            android:id="@+id/personal_info_layout"
+            style="@style/MenuListItem">
+
+
+            <TextView
+                style="@style/MenuListItemText1"
+                android:text="@string/personal_info" />
+
+            <ImageView style="@style/MenuListItemArrow" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/Divide"
+            android:layout_marginLeft="22dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/MenuListPanel"
+        android:layout_marginTop="10dp">
+
+
+        <LinearLayout
+            android:id="@+id/message_center_layout"
+            style="@style/MenuListItem">
+
+
+            <TextView
+                style="@style/MenuListItemText1"
+                android:text="@string/message_center" />
+
+            <TextView
+                android:id="@+id/message_count_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fb4552"
+                android:textSize="14sp" />
+
+            <ImageView style="@style/MenuListItemArrow" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/Divide"
+            android:layout_marginLeft="22dp" />
+
+        <LinearLayout
+            android:id="@+id/about_us_layout"
+            style="@style/MenuListItem">
+
+
+            <TextView
+                style="@style/MenuListItemText1"
+                android:text="@string/about_us" />
+
+            <ImageView style="@style/MenuListItemArrow" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/Divide"
+            android:layout_marginLeft="22dp" />
+
+        <LinearLayout
+            android:id="@+id/recommend_to_friends_layout"
+            style="@style/MenuListItem">
+
+
+            <TextView
+                style="@style/MenuListItemText1"
+                android:text="@string/recommend_to_friends" />
+
+            <ImageView style="@style/MenuListItemArrow" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/Divide"
+            android:layout_marginLeft="22dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

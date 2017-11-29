@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_content_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/InputPanel2"
+        android:layout_marginTop="36dp">
+
+        <LinearLayout style="@style/InputPanelItem">
+
+            <TextView
+                style="@style/InputPanelText"
+                android:text="@string/phone_num" />
+
+            <EditText
+                android:id="@+id/phone_num_edit"
+                style="@style/InputPanelEdit"
+                android:enabled="false"
+                android:hint="@string/phone_num_hint"
+                android:inputType="phone" />
+
+        </LinearLayout>
+
+        <View style="@style/Divide" />
+
+        <LinearLayout style="@style/InputPanelItem">
+
+            <TextView
+                style="@style/InputPanelText"
+                android:text="@string/msg_verify_code" />
+
+
+            <EditText
+                android:id="@+id/msg_verify_code_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:hint="@string/msg_verify_code_hint"
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="#4A4A4A"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:background="#e5e5e5" />
+
+            <Button
+                android:id="@+id/get_phone_code_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="@string/get"
+                android:textColor="#4BA1FF"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next_step_btn"
+        style="@style/BtnTheme2"
+        android:layout_marginTop="30dp"
+        android:text="@string/next_step" />
+
+</LinearLayout>
